@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.logo {
+    width: 15%;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;

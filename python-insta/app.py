@@ -1,5 +1,4 @@
-from flask import Flask, render_template, session
-#request,redirect,url_for,session
+from flask import Flask, render_template, request,redirect,url_for,session
 import sqlite3 as sql
 
 app = Flask(__name__)
