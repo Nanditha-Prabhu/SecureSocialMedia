@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Private Mode</title>
+</head>
+<body>
+    <h1>Secure Private Mode</h1>
+    <button id="activateButton">Activate Secure Private Mode</button>
+    <button id="deactivateButton">Deactivate Secure Private Mode</button>
+
+    <script>
+        document.getElementById('activateButton').addEventListener('click', activateSecurePrivateMode);
+        document.getElementById('deactivateButton').addEventListener('click', deactivateSecurePrivateMode);
+
+        function activateSecurePrivateMode() {
+            const user_id = prompt("Enter user ID:");
+            const duration = prompt("Enter duration (in hours):");
+            const contacts = prompt("Enter trusted contacts (comma-separated):").split(',');
+
+            fetch('/activate_secure_private_mode', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    user_id: user_id,
+                    duration: duration,
+                    contacts: contacts
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            });
+        }
+
+        function deactivateSecurePrivateMode() {
+            const user_id = prompt("Enter user ID:");
+
+            fetch('/deactivate_secure_private_mode', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    user_id: user_id
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            });
+        }
+    </script>
+</body>
+</html>

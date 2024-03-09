@@ -1,0 +1,724 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 23%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+
+
+
+
+/* Ist column begins */
+
+
+
+.instagram {
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.home {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.homee {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.homeee {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.homeeee {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 5px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+
+.home:hover {
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.homee:hover {
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.homeee:hover {
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.homeeee:hover {
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.home1 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.home2 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+aside {
+    width: 18%;
+    border-right: 3px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+
+
+
+
+
+
+/* story section starts here  */
+
+
+
+.virat {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid palevioletred;
+    padding: 4px;
+    margin-top: 60px;
+}
+
+.names {
+    display: flex;
+}
+
+.names p {
+    margin-top: 28px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.names h5 {
+    margin-top: 28px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+
+.story {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 130px;
+}
+
+
+/* post section starts here  */
+
+.virat1 {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.post1 {
+    padding-top: 100px;
+    margin-left: 90px;
+    width: 72%;
+    border-bottom: 3px solid silver;
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.more {
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+/* post */
+
+.padam {
+    height: "500px";
+    width: "100%";
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.podhudiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.like {
+    font-size: 28px;
+    display: flex;
+}
+
+.like button {
+    border: none;
+    outline: none;
+    font-size: 28px;
+    background: transparent;
+    margin-right: 10px;
+
+}
+
+.like a {
+    padding-right: 8px;
+}
+
+.bookmark {
+    font-size: 28px;
+}
+
+
+/* likes */
+
+.likes {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8px;
+}
+
+
+.caption {
+    margin-top: 8px;
+}
+
+.translate {
+    margin-top: 8px;
+}
+
+.comments {
+    margin-top: 8px;
+}
+
+.leavecomment {
+    margin-top: 8px;
+}
+
+input {
+    border: none;
+    font-size: 18px;
+}
+
+/* notification starts here*/
+
+
+.follow {
+    margin-top: 85px;
+    display: flex;
+}
+
+.follow1 {
+    margin-top: 17px;
+    display: flex;
+}
+
+.mainpic {
+    display: flex;
+
+}
+
+.profilename {
+    margin-left: 15px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 6px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.jeffindp {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.switch {
+    margin-left: 153px;
+    color: #0095F6;
+    padding-top: 20px;
+    display: flex;
+}
+
+.suggested {
+    display: flex;
+    margin-top: 30px;
+    color: #737373;
+    font-size: 18px;
+    /* margin-left: 18px; */
+}
+
+
+.see {
+    font-size: 15px;
+    margin-left: 225px;
+    color: black;
+}
+
+.followers {
+    font-size: 14px;
+    color: #737373;
+}
+
+.mairu1 {
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #0095F6;
+    display: flex;
+}
+
+.mairu2 {
+    color: #0095F6;
+    display: flex;
+    padding-left: 127px;
+    padding-top: 20px;
+}
+
+.mairu3 {
+    padding-left: 50px;
+    padding-top: 15px;
+    color: #0095F6;
+    display: flex;
+}
+
+.mairu4 {
+    padding-left: 121.5px;
+    padding-top: 18px;
+    color: #0095F6;
+    display: flex;
+}
+
+.mairu5 {
+    padding-left: 87px;
+    padding-top: 18px;
+    color: #0095F6;
+    display: flex;
+}
+
+.meta {
+    margin-top: 40px;
+    color: #7777;
+}
+
+.meta a {
+    color: #7777;
+    font-size: 15px;
+}
+
+
+/* search page css starts here  */
+
+
+.backgroundinsta img {
+    filter: brightness(60%);
+    position: relative;
+}
+
+.inputdappa {
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    background-color: white;
+    border-radius: 20px;
+    height: 595.5px;
+    width: 500px;
+}
+
+.inputdappa h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.inputdappa input {
+    background-color: #73737336;
+    padding-left: 20px;
+    height: 50px;
+    width: 450px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.inputdappa input::placeholder {
+    color: black;
+}
+
+.inputdappa button {
+    /* background-color: #73737336; */
+    background: transparent;
+
+    position: absolute;
+    left: 86%;
+    top: 14%;
+    font-size: 30px;
+    border: none;
+}
+
+.recent {
+    position: absolute;
+    top: 33%;
+    left: 6.3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    /* background-color: rgba(255, 166, 0, 0.514); */
+    height: 30px;
+    width: 445px;
+}
+
+.recent .c {
+    color: rgba(0, 0, 255, 0.658);
+}
+
+.recentsearch {
+    position: absolute;
+    top: 37.5%;
+    left: 6%;
+    width: 452px;
+}
+
+.mairu11 {
+    padding-left: 197px;
+    padding-top: 15px;
+    color: black;
+    display: flex;
+}
+
+.mairua {
+    margin-left: 189px;
+}
+
+.mairub {
+    margin-left: 208px;
+}
+
+.mairuc {
+    margin-left: 237px;
+}
+
+.mairud {
+    margin-left: 209px;
+}
+
+
+/* user page css starts here  */
+
+.periyapic {
+    display: flex;
+    height: 300px;
+    /* background-color: #737373; */
+    position: relative;
+}
+
+.profilepicturee a img {
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+    padding: 5px;
+    margin-top: 65px;
+    margin-left: 90px;
+}
+
+.mainhead {
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.mainhead {
+    display: flex;
+}
+
+.mainhead p {
+    font-size: 24px;
+}
+
+.mainhead img {
+    margin-left: 5px;
+}
+
+.followingg {
+    display: flex;
+    margin-left: 34px;
+    font-size: 20px;
+}
+
+.followingg .foll {
+    border: 2px solid #7373731c;
+    height: 38px;
+    width: 150px;
+    padding-top: 6px;
+    padding-left: 22px;
+    background-color: #7373731c;
+    border-radius: 10px;
+    margin-top: 56px;
+}
+
+.followingg .mess {
+    border: 2px solid #7373731c;
+    height: 38px;
+    width: 120px;
+    padding-top: 6px;
+    padding-left: 16px;
+    background-color: #7373731c;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 56px;
+
+}
+
+.followingg .angledown {
+    border: 2px solid #7373731c;
+    height: 38px;
+    width: 40px;
+    padding-top: 6px;
+    padding-left: 8px;
+    background-color: #7373731c;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 56px;
+
+}
+
+.pulli {
+    font-size: 45px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.pff {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    height: 50px;
+    width: 550px;
+    justify-content: space-evenly;
+    border-color: white;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.ronaldopro {
+    position: absolute;
+    top: 22%;
+    left: 48.5%;
+    line-height: 23px;
+}
+
+
+.followedby {
+    position: absolute;
+    top: 32%;
+    left: 48.5%;
+}
+
+
+
+/* post html starts here  */
+
+.hellohi img{
+    filter: brightness(40%);
+    position: relative;
+}
+
+.contain{
+    height: 530px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.coollediv p{
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.coollediv h1{
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: #737373;
+}
+
+.coollediv input{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.coollediv .texx{
+    padding: 10px 20px;
+    font-size: 22px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.coollediv .texx::placeholder{
+    color: black;
+}
+
+.coollediv button{
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 20px;
+    margin-left: 190px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 15px;
+}
+

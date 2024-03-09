@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Flask Post</title>
+  <meta charset="utf-8">   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+
+</head>
+ 
+<body>
+
+        <div class="hellohi">
+          <img src="../static/images/insta_bg_ss.png" alt="" width="100%">
+        </div>
+        <div class="contain">
+
+            <div class="coollediv">
+              <p> Create new post</p>
+              <hr>
+              <h1><i class="fa-solid fa-photo-film"></i></h1>
+              <form enctype="multipart/form-data" method="post" action="{{url_for('upload')}}" >
+                <input type="file" name="file"><br>
+                <input class="texx" type="text" name="caption" placeholder="Enter Caption..."><br>
+                <button type="submit">POST</button><br><br>
+                <hr>
+              </form>
+            </div>
+        </div>
+</body>
+</html>
